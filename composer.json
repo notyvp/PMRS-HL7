@@ -1,5 +1,5 @@
 {
-    "name": "pharmaintelligence/hl7",
+    "name": "pmrs/hl7",
     "type": "library",
     "description": "HL7 PHP Library.",
     "keywords": ["hl7"],

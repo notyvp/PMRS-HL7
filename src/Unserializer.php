@@ -1,14 +1,14 @@
 <?php
-namespace PharmaIntelligence\HL7;
+namespace PMRS\HL7;
 
-use PharmaIntelligence\HL7\Exception\StructureException;
-use PharmaIntelligence\HL7\Node\Segment\MSHSegment;
-use PharmaIntelligence\HL7\Node\Message;
-use PharmaIntelligence\HL7\Node\Segment;
-use PharmaIntelligence\HL7\Node\Field;
-use PharmaIntelligence\HL7\Node\Repetition;
-use PharmaIntelligence\HL7\Node\Component;
-use PharmaIntelligence\HL7\Node\SubComponent;
+use PMRS\HL7\Exception\StructureException;
+use PMRS\HL7\Node\Segment\MSHSegment;
+use PMRS\HL7\Node\Message;
+use PMRS\HL7\Node\Segment;
+use PMRS\HL7\Node\Field;
+use PMRS\HL7\Node\Repetition;
+use PMRS\HL7\Node\Component;
+use PMRS\HL7\Node\SubComponent;
 class Unserializer
 {
     protected $hl7String = '';

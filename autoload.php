@@ -2,7 +2,7 @@
 spl_autoload_register(function ($class) {
 
     // project-specific namespace prefix
-    $prefix = 'PharmaIntelligence\\HL7\\';
+    $prefix = 'PMRS\\HL7\\';
 
     // base directory for the namespace prefix
     $base_dir = __DIR__ . '/src/';

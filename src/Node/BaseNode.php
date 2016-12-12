@@ -1,5 +1,5 @@
 <?php
-namespace PharmaIntelligence\HL7\Node;
+namespace PMRS\HL7\Node;
 
 abstract class BaseNode implements \ArrayAccess, \Iterator, \Countable
 {
@@ -9,7 +9,7 @@ abstract class BaseNode implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * 
-     * @return \PharmaIntelligence\HL7\Node\Message
+     * @return \PMRS\HL7\Node\Message
      */
     public function getRootNode() {
         if(is_null($this->parent))

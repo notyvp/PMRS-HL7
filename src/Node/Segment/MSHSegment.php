@@ -1,7 +1,7 @@
 <?php
-namespace PharmaIntelligence\HL7\Node\Segment;
+namespace PMRS\HL7\Node\Segment;
 
-use PharmaIntelligence\HL7\Node\Segment;
+use PMRS\HL7\Node\Segment;
 
 class MSHSegment extends Segment
 {

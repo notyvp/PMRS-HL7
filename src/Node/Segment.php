@@ -1,7 +1,7 @@
 <?php
-namespace PharmaIntelligence\HL7\Node;
+namespace PMRS\HL7\Node;
 
-use PharmaIntelligence\HL7\Exception\StructureException;
+use PMRS\HL7\Exception\StructureException;
 
 class Segment extends BaseNode
 {

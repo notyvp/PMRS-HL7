@@ -1,5 +1,5 @@
 <?php
-namespace PharmaIntelligence\HL7\Exception;
+namespace PMRS\HL7\Exception;
 
 class StructureException extends \LogicException
 {

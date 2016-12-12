@@ -1,5 +1,5 @@
 <?php
-namespace PharmaIntelligence\HL7\Node;
+namespace PMRS\HL7\Node;
 
 class Message extends BaseNode
 {
